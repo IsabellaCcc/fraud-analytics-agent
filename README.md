@@ -38,16 +38,7 @@ A conversational Text-to-SQL data agent for banking fraud analysis, built with C
 | Queries Auto-fixed by Reviewer | 3–9 per run |
 
 ## Project Structure
-fraud-analytics-agent/
-├── 01_setup.ipynb              # Data cleaning + DuckDB setup
-├── 02_agent.ipynb              # Base agent + adversarial reviewer
-├── 03_eval.ipynb               # 30-question eval framework
-├── 04_visualization.ipynb      # Eval results visualization
-├── 05_agent_with_memory.ipynb  # Multi-turn conversation memory
-├── app.py                      # Streamlit web app
-├── schema_docs/
-│   └── schema.md               # Table schema + domain gotchas
-└── eval_visualization.png      # Performance report chart
+<img width="543" height="283" alt="Screenshot 2026-06-08 at 12 54 23 PM" src="https://github.com/user-attachments/assets/017e125b-f23e-4f4c-8257-52641913bfb1" />
 
 ## Setup
 
