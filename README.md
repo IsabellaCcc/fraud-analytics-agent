@@ -1,4 +1,4 @@
-🏦 Banking Fraud Analytics Agent
+# 🏦 Banking Fraud Analytics Agent
 
 A conversational Text-to-SQL data agent for banking fraud analysis, built with Claude API, DuckDB, and Streamlit. Ask questions in plain English and get SQL-powered insights on 13M+ real banking transactions.
 
