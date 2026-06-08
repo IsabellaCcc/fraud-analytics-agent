@@ -20,7 +20,8 @@ st.set_page_config(
 # ── Initialization ────────────────────────────────────────────────────
 @st.cache_resource
 def get_db():
-    return duckdb.connect('/Users/isabella/data/fraud_analytics.db')
+    db_path = os.path.join(os.path.dirname(__file__), 'data', 'fraud_analytics.db')
+    return duckdb.connect(db_path)
 
 @st.cache_resource
 def get_client():
@@ -28,7 +29,8 @@ def get_client():
 
 @st.cache_data
 def get_schema():
-    with open('./schema_docs/schema.md', 'r') as f:
+    schema_path = os.path.join(os.path.dirname(__file__), 'schema_docs', 'schema.md')
+    with open(schema_path, 'r') as f:
         return f.read()
 
 con    = get_db()
