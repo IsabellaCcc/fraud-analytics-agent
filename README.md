@@ -13,17 +13,7 @@ A conversational Text-to-SQL data agent for banking fraud analysis, built with C
 - **Streamlit UI** — Interactive web app with real-time reviewer activity tracking
 
 ## Architecture
-User Question
-↓
-Claude (SQL Generator)
-↓
-Claude (Adversarial Reviewer) ← catches errors before execution
-↓
-DuckDB (Query Execution)
-↓
-Claude (Insight Interpreter)
-↓
-Streamlit (UI Rendering)
+<img width="494" height="303" alt="Screenshot 2026-06-08 at 12 53 11 PM" src="https://github.com/user-attachments/assets/b7717857-13b8-476b-9d7d-f3d5df96ceae" />
 
 ## Dataset
 
