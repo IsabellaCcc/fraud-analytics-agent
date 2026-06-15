@@ -4,7 +4,7 @@ A **multi-agent analytics system** that answers questions about 13M+ banking tra
 
 ![Agent Performance](./eval_visualization.png)
 
-> **TL;DR for reviewers:** This isn't just Text-to-SQL. It's a two-agent system (generator + adversarial reviewer) with conversation memory and a rigorous evaluation framework — the patterns that matter for production LLM systems: tool use, multi-agent coordination, and measurable quality.
+This isn't just Text-to-SQL. It's a two-agent system (generator + adversarial reviewer) with conversation memory and a rigorous evaluation framework — the patterns that matter for production LLM systems: tool use, multi-agent coordination, and measurable quality.
 
 ![demo](./assets/demo.gif)
 
