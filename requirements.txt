@@ -1,0 +1,7 @@
+anthropic
+duckdb
+pandas
+streamlit
+python-dotenv
+kaggle
+pytest
